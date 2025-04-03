@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Part1</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+      }
+
+      .container {
+        background-color: cyan;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+      }
+      ul li a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div>logo</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- heading -->
+      <h1>hello heading 1</h1>
+
+      <!-- tags -->
+      <p>
+        Welcome to <em>my</em> website. This will be<strong>new</strong> on the
+        web.
+      </p>
+      <p>Welcome to<em>my</em>website. This will be<strong>new</strong></p>
+      <p>H<sub>2</sub>O</p>
+      <p>5<sup>th</sup></p>
+
+      <!-- img tag -->
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIdiMqvls482XJHOxWkpMJ-uBN4sR9ShBFlA&s"
+        alt="cat"
+      />
+    </main>
+  </body>
+</html>
